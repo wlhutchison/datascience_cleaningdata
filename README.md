@@ -1,6 +1,17 @@
 Getting and Cleaning Data Course Project
 ===================
 
+### Purpose
+
+The **run_analysis.R** performs the tasks to process the raw UCI data in order to create a tidy data set.
+
+### Execution
+
+It assumes that the UCI data structure is located in a folder named "UCI_HAR_Dataset".  If the data set is located somewhere else, edit the ***lines 15-34*** to specify the location.
+
+To execute the script, simply type **source("run_analysis.R")**
+
+### Process Flow
 
 The **run_analysis.R** performs the following tasks to create a tidy data set from raw data:
 
